@@ -6,14 +6,18 @@ namespace snake
     {
         public static void Main(string[] args)
         {
-            // 1-st Point
-            Point p1 = new Point(1, 3, '*');
-            p1.Draw();
+            List<Point> pList = new List<Point>();
 
-            // 2-nd Point
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
+            pList.add(Point(1, 3, '#'));
+            pList.add(Point(3, 5, '$'));
+            pList.add(Point(4, 4, '@'));
+            pList.add(Point(8, 2, '^'));
 
+            foreach(Point i in pList)
+            {
+                i.Draw();
+            }
+            Console.ReadLine();
         }
     }
 }
