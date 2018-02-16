@@ -11,18 +11,16 @@ namespace snake
     {
         public static void Main(string[] args)
         {
-            List<Point> pList = new List<Point>();
+            Point p1 = new Point(1, 3, '#');
+            p1.Draw();
 
-            pList.Add(new Point(1, 3, '#'));
-            pList.Add(new Point(3, 5, '$'));
-            pList.Add(new Point(4, 4, '@'));
-            pList.Add(new Point(8, 2, '^'));
+            Point p2 = new Point(3, 5, '@');
+            p2.Draw();
 
-            foreach(Point i in pList)
-            {
-                i.Draw();
-            }
-            Console.ReadKey();
+            HorizontalLine p = new HorizontalLine(1, 6, 10, '+');
+            p.Drow();
+
+
         }
     }
 }
