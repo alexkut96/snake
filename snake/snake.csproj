@@ -35,7 +35,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="HorizontalLine.cs" />
-    <Compile Include="Properties\VerticalLine.cs" />
+    <Compile Include="VerticalLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
