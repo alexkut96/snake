@@ -2,7 +2,7 @@
 
 namespace snake
 {
-    class MainClass
+    class Snake
     {
         public static void Main(string[] args)
         {
