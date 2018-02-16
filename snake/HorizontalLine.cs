@@ -4,23 +4,23 @@ namespace snake
 {
     public class HorizontalLine
     {
-        List<Point> pList;
+        List<Point> hList;
 
         public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
-            pList = new List<Point>();
+            hList = new List<Point>();
             for (int x = xLeft; x <= xRight; x++)
             {
                 Point p = new Point(x,y,sym);
-                pList.Add(p);
+                hList.Add(p);
             }
         }
 
-        public void Drow()
+        public void DrawH()
         {
-            foreach (Point p in pList)
+            foreach (Point h in hList)
             {
-                p.Draw();
+                h.Draw();
             }    
         }
     }
