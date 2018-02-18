@@ -14,12 +14,6 @@ namespace snake
             
             Console.SetWindowSize(80, 28);
         
-
-
-
-
-
-
             // Отрисовка линий
             HorizontalLine upLine = new HorizontalLine(0,Console.BufferWidth - 1,0,'+');
             HorizontalLine downLine = new HorizontalLine(0, Console.BufferWidth - 1, Console.BufferHeight- 1, '+');
